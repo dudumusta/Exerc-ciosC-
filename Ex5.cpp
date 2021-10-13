@@ -14,10 +14,10 @@ int dado(){
 int main()
 {
     int numero = 0;
-    cout<<"Sorteie um número entre 1 e 6: ";
+    cout<<"Sorteie um nÃºmero entre 1 e 6: ";
     cin >> numero;
     numero = dado();
-    cout << "O número sorteado foi: " << numero;
+    cout << "O nÃºmero sorteado foi: " << numero;
 
     return 0;
 }
