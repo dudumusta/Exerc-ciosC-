@@ -15,7 +15,6 @@ int main()
 {
     int numero = 0;
     cout<<"Sorteie um número entre 1 e 6: ";
-    cin >> numero;
     numero = dado();
     cout << "O número sorteado foi: " << numero;
 
